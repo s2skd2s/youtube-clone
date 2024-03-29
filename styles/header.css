@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.header{
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.start-header{
+    width: 159px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.center-header{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 650px;
+}
+
+
+
+
+.small-icon{
+    height: 24px;
+    width: 24px;
+}
+
+.youtube-logo{
+    height: 20px;
+    padding: 18px 14px 18px 16px;
+}
+
+.pd8{
+    padding: 8px;
+}
+
+.search-box{
+    flex: 1px;
+    height: 40px;
+    box-sizing: border-box;
+    border-width: 1px;
+    border-style: solid;
+    border-color: hsla(0,0%,53.3%,0.2);
+    width: 0;
+    border-radius: 40px 0 0 40px;
+    padding: 0 12px;
+    font-size: 16px;
+    margin-left:32px;
+    box-shadow: inset 0 1px 2px #eee;
+}
+
+.search-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 60px;
+    border: 1px solid hsla(0,0%,53.3%,0.2);
+    border-radius: 0 40px 40px 0;
+    box-sizing: border-box;
+    margin-left: -1px;
+    background-color: rgb(241, 241, 241);
+}
+
+
+.voice-search-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin-left: 10px;
+    background-color: rgb(241, 241, 241);
+}
+
+
+.end-header{
+    width: 225px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+
+.upload-button{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.notifications-button{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.notifications-button:hover, 
+.upload-button:hover {
+    background-color: rgb(237, 237, 237);
+}
+
+.my-channel-picture-container{
+    height: 34px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 8px;
+    padding: 1 6px;
+
+}
+
+.my-channel-picture{
+    width: 32px;
+    height: 32px;
+
+}
+
+
+
+
